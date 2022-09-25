@@ -8,7 +8,7 @@ import { store } from "./store";
 
 // initialting Parse Client
 Parse.initialize("digius-crm");
-Parse.serverURL = "http://localhost:1337/parse";
+Parse.serverURL = "https://digius-crm.onrender.com/parse";
 
 ReactDOM.render(
   <Provider store={store}>
